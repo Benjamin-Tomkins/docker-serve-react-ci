@@ -2,13 +2,3 @@ sut:
   build: .
   command: npm test
 
-#version: '3'
-#
-#services:
-#  serve:
-#    build: .
-#  sut:
-#    build: .
-#    depends_on:
-#      - serve
-
