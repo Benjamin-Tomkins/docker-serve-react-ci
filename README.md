@@ -1,4 +1,4 @@
-### work in progress
+### *work in progress
 
 This project was produced in a joint pairing between <a href="https://github.com/Benjamin-Tomkins">myself</a> and <a href="https://github.com/fabjab86">Farah Jabri</a>, to explore continuous integration and TDD scenarios for deploying ReactJS projects.
 
