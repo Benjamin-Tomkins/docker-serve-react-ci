@@ -1,5 +1,17 @@
-How to use 
-===========
+### *work in progress
+
+This project was produced in a joint pairing between <a href="https://github.com/Benjamin-Tomkins">myself</a> and <a href="https://github.com/fabjab86">Farah Jabri</a>, to explore continuous integration and TDD scenarios for deploying ReactJS projects.
+
+The Sample project in this repo is to test setting up a boilerplate React App with a continuous integration build, triggered on updating the master branch. The code is then pulled to its associated <a href="https://cloud.docker.com/repository/docker/glossyfly/mismocodes">docker repo</a>, where it'll build a deployable node/serve docker container (upon passing all tests).
+The successfully built image can then be pulled onto the deployment server and run.
+
+This sample is currently running live on a <a href="https://www.digitalocean.com/">DigitalOcean</a> docker droplet at the following address:
+
+http://178.128.170.149/
+
+
+How to use locally
+==================
 
 From the commad line `docker build -t <username>/<projectname>:latest .`  
 Once completed `docker push <username>/<projectname>:latest`   
