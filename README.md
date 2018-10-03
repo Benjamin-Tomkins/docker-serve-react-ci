@@ -23,7 +23,22 @@ To use any other provider all you need is ubunto 16.04 and root SSH
 > A digital ocean droplet is a vertual server  
 
   
-On the top right section of the website click Create > Droplets > Go to the One-click-apps > Docker 18.xx on 18.xx > Scroll down to select size of the droplet > Select the data centre region which is below it > Get your SSH public key (below) > Click on New SSH key > Paste the copied public SSH key > _Make sure to remove any white space after the last charachter of your public SSH key_ > Name your SSH public key > Click Add SSH key > Hover over the SSH public key to check that it has been added correctly > Select how many droplets you want > Chose a host name > Click on the create button 
+- [ ] On the top right section of the website click Create 
+- [ ] Droplets 
+- [ ] Go to the One-click-apps 
+- [ ] Docker 18.xx on 18.xx 
+- [ ] Scroll down to select size of the droplet 
+- [ ] Select the data centre region which is below it 
+- [ ] Get your SSH public key (below) 
+- [ ] Click on New SSH key 
+- [ ] Paste the copied public SSH key 
+- [ ] _Make sure to remove any white space after the last charachter of your public SSH key_ 
+- [ ] Name your SSH public key 
+- [ ] Click Add SSH key 
+- [ ] Hover over the SSH public key to check that it has been added correctly 
+- [ ] Select how many droplets you want 
+- [ ] Chose a host name 
+- [ ] Click on the create button 
 
 ### To get your SSH Key
 
@@ -45,4 +60,8 @@ Paste your droplet <IP> address in your browser to see your project live
 Type `exit` in the command line 
   
 
+### Continous integration
+
+docker-compose.test.yml 
+system under tests (SUT) 
 
